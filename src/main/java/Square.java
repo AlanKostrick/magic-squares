@@ -61,9 +61,11 @@ public class Square {
 	// Scanner parameter
 	// --------------------------------------
 	public void readSquare(Scanner scan) {
-		for (int row = 0; row < square.length; row++)
-			for (int col = 0; col < square.length; col++)
+		for (int row = 0; row < square.length; row++) {
+			for (int col = 0; col < square.length; col++) {
 				square[row][col] = scan.nextInt();
+			}
+		}
 	}
 
 	// --------------------------------------
