@@ -1,6 +1,6 @@
 
 // ****************************************************************
-// SquareTest.java
+// SquareApp.java
 //
 // Uses the Square class to read in square data and tell if 
 // each square is magic.
